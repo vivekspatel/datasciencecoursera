@@ -1,5 +1,5 @@
 complete <- function(directory,  id = 1:332) {
-  
+  # this is to test GitHub
   # Format number with fixed width and then append .csv to number
   fileNames <- paste0(directory, '/', formatC(id, width=3, flag="0"), ".csv" )
   
